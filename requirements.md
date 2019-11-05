@@ -31,6 +31,8 @@ Initialize knex for our project: `npx knex init` ==> ./knexfile.js
 
 Create a migration `npx knex migrate:make name`
 
+Use the migration to declare the changes we plan to make to the schema (structure)
+
 Run a migration `npx knex migrate:up`
 
 Undo last migration `npx knex migrate:down`
